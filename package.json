@@ -7,10 +7,8 @@
     "test": "test"
   },
   "peerDependencies": {
-    "pg": "2.x"
   },
   "devDependencies": {
-    "pg": "2.x",
     "mocha": "1.7.x",
     "should": "1.2.x",
     "async": "0.1.x"
@@ -31,5 +29,8 @@
     "transaction"
   ],
   "author": "Lalit Kapoor <lalit@goodybag.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pg.js": "^3.0.4"
+  }
 }
